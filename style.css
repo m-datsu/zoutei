@@ -1,0 +1,104 @@
+@charset "utf-8";
+
+@import url("https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300;400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+}
+
+body {
+  height: 100vh; /* 全画面表示 */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-image: url(https://cdn.discordapp.com/attachments/1166733423931568231/1172563994985373756/17_20231111005031.png);
+  display: grid;
+  place-content: center;
+}
+
+.contact-form {
+  transform: scale(0.7, 0.7);
+  border-radius: 15px;
+  background-color: #fff;
+  padding: 50px 30px;
+}
+
+.title {
+  text-align: center;
+  font-size: 15px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+form {
+  width: 460px;
+  margin: 0 auto;
+}
+
+.item {
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.label {
+  float: left;
+  margin-right: 20px;
+  width: 135px;
+  border-left: solid 3px #c2704f;
+  padding-left: 10px;
+}
+
+.inputs {
+  float: left;
+  width: 300px;
+}
+
+input[type="text"],
+input[type="email"] {
+  border: solid 1px #aaa;
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 5px;
+}
+
+textarea {
+  border: solid 1px #aaa;
+  border-radius: 5px;
+  padding: 10px;
+  height: 160px;
+  width: 300px;
+  font-size: 15px;
+}
+
+.button-area {
+  text-align: center;
+}
+
+input[type="submit"] {
+  background: #c2704f;
+  border: none;
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
+  padding: 10px 20px;
+  margin: 0 5px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 3px black;
+  cursor: pointer;
+}
+
+input[type="reset"] {
+  background: #837a7a;
+  border: none;
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
+  padding: 10px 20px;
+  margin: 0 5px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 3px black;
+
+  cursor: pointer;
+}
